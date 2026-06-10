@@ -1,0 +1,16 @@
+{
+  "name": "vehicle_scheduling",
+  "version": "1.0.0",
+  "description": "Vehicle Maintenance Scheduler microservice for campus hiring evaluation",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.17.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.1"
+  }
+}
